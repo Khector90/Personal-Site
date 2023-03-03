@@ -1,7 +1,7 @@
 // Avoid `console` errors in browsers that lack a console.
 (function() {
-  var method;
-  var noop = function () {};
+  let method;
+  let noop = function () {};
   var methods = [
     'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
     'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
@@ -22,3 +22,4 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+goit
